@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.0; // 指示编译器检查它的版本是否与编译指示所要求的版本一致。 如果不匹配，编译器会发出一个错误。
 
 contract Incrementer {
     uint256 public number;

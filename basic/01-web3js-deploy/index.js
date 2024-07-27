@@ -8,7 +8,7 @@ let privatekey = process.env.PRIVATE_KEY;
 if (privatekey.slice(0, 2) !== '0x') privatekey = '0x' + privatekey;
 
 // Load contract
-const source = fs.readFileSync('Incrementer.sol', 'utf8');
+const source = fs.readFileSync('Incrementer.sol', 'utf8'); // 这里读到的是 sol 文件的代码
 
 // compile solidity
 const input = {
